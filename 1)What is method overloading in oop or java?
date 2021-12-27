@@ -1,0 +1,20 @@
+when you have same method name multiple times with different functionality (perameter) in a same class or subClass
+    eg:println() we have 6 or 7 method in this name
+
+class A{
+   public void hello()
+   {
+   }
+   public void hello(int a)
+   {
+   }
+}
+class B extends A
+{
+ public void (int a,int b)
+ {
+ }
+ public int(String s,int a)
+ {
+ }
+}
